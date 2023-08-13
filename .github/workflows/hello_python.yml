@@ -8,7 +8,9 @@ jobs:
     runs-on: arch
 
     steps:
-      - name: setup Python
+      - name: Show OS
+        run: cat /etc/os-release
+      - name: Setup Python
         uses: ganadist/setup-python@v0.0.4
         with:
           python-version: 3.9.16
