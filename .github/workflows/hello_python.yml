@@ -14,7 +14,3 @@ jobs:
         uses: ganadist/setup-python@v0.0.9
         with:
           python-version: 3.9.16
-          versions-manifest-repo-owner: ganadist
-          versions-manifest-repo-name: setup-python
-          versions-manifest-repo-branch: support-non-ubuntu-test
-
