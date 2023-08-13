@@ -11,6 +11,6 @@ jobs:
       - name: Show OS
         run: cat /etc/os-release
       - name: Setup Python
-        uses: ganadist/setup-python@v0.0.9
+        uses: ganadist/setup-python@v0.0.9.1
         with:
           python-version: 3.9.16
