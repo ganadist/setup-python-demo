@@ -5,11 +5,11 @@ on:
 jobs:
   hello_python:
     name: Hello Python
-    runs-on: self-hosted
+    runs-on: arch
 
     steps:
       - name: setup Python
-        uses: ganadist/setup-python-not-ubuntu@v0.0.1
+        uses: actions/setup-python@v4
         with:
           python-version: 3.9.15
 
