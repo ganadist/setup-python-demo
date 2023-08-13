@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: setup Python
-        uses: ganadist/setup-python@v0.0.3
+        uses: ganadist/setup-python@v0.0.4
         with:
           python-version: 3.9.16
 
